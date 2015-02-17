@@ -1,2 +1,4 @@
 # Getting_cleaning_project
-project for Getting &amp; Cleaning course
+project for Getting and Cleaning data course
+
+The function analysis
