@@ -5,7 +5,13 @@ This code book describes the variables created by run_analysis and stored in tid
 Identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 
 ## activity
-Identifies the activity performed for each window sample. The activities are: laying, sitting, walking, walking_downstairs, walking_upstairs and standing
+Identifies the activity performed for each window sample. The activities are: 
+*laying
+*sitting
+*walking
+*walking_downstairs
+*walking_upstairs
+*standing
 
 ## measurements 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
@@ -37,10 +43,10 @@ The set of variables that were estimated from these signals are:
 mean(): Mean value
 std(): Standard deviation
 
-gravityMean
-tBodyAccMean
-tBodyAccJerkMean
-tBodyGyroMean
-tBodyGyroJerkMean
+*gravityMean
+*tBodyAccMean
+*tBodyAccJerkMean
+*tBodyGyroMean
+*tBodyGyroJerkMean
 
 
